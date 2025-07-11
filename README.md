@@ -36,5 +36,4 @@ docker exec -it redis-slave redis-cli get hello
 ### 5. Vérifier l'expiration
 ```bash
 docker exec -it redis-master redis-cli ttl test
-# → doit afficher un TTL (temps restant)
 ```
